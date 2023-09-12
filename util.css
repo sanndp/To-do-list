@@ -1,0 +1,12 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+element {
+  --font-family: 'Mukta', sans-serif;
+}
+
+element {
+  --bg-color: rgba(21, 237, 14, 0.42);
+}

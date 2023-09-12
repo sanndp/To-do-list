@@ -1,0 +1,243 @@
+/* Some body tag */
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* This is the header section  */
+
+/* Start of header section */
+header {
+  display: flex;
+  background-color: rgba(21, 237, 14, 0.42);
+  justify-content: space-between;
+  align-items: center;
+}
+.display p {
+  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: red;
+}
+
+/* .floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframe floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+} */
+/* @keyframes animate {
+  0% {
+    content: 'Looking forward to work with you';
+  }
+  50% {
+    content: 'I am open for work and love to help you solve your business related problem.';
+  }
+  75% {
+    content: 'Looking forward to work with you';
+  } */
+
+.fa-brands {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.social-media {
+  justify-content: space-between;
+}
+header p {
+  /* background-color: violet; */
+  font-size: 20px;
+  margin: 12px;
+  font-family: var(--font-family);
+}
+/* End of header section */
+
+/* This is the navigation of the website  */
+
+/* This is the start of navigation. */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  /* background: var(--bg-color); */
+  color: rgb(9, 9, 9);
+  background-color: rgb(237, 240, 237);
+}
+
+.logo {
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+  padding: 8px;
+  font-weight: 600;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  background-color: green;
+}
+
+/* this is the end of navigation */
+
+/* this is the start of hero element */
+
+.hero {
+  background-color: rgb(255, 254, 254);
+  /* display: flex; */
+  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+h3 {
+  width: 100%;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+.hero p {
+  width: 50%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero {
+  background-color: red;
+}
+
+/* This is end of hero element */
+
+/* This is the start of hero1 */
+
+.hero1 {
+  background-image: url('images/back.jpg');
+  height: 500px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  /* background-color: blue; */
+}
+
+.Intro {
+  /* background-color: rgb(24, 21, 133); */
+  height: 200px;
+  width: 700px;
+}
+
+.Intro h1 {
+  text-align: center;
+}
+
+/* enf of hero 1 */
+
+/* end of hero 2 */
+
+.hero2 {
+  background-color: rgb(199, 195, 195);
+  border-radius: 15px;
+  box-shadow: 10px, 20px;
+  justify-content: space-between;
+
+  display: flex;
+  margin: -20px;
+}
+
+.mini-container1 {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.mini-container2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* background-color: white; */
+}
+
+.mini-container3 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.hero2 h4 {
+  color: blue;
+  font-size: 20px;
+}
+
+.hero2 p {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* End of hero-container 2 */
+
+/* Start of hero-container 3 */
+.hero-container3 {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 700px;
+  background-color: blue;
+}
+.box1 {
+  background: #c39d9d;
+  height: 100px;
+  width: 300px;
+}
+.box2 {
+  background-color: red;
+  height: 350px;
+  width: 300px;
+}
+.box3 {
+  background: white;
+  height: 350px;
+  width: 300px;
+}
+.box4 {
+  background-color: yellow;
+  height: 350px;
+  width: 300px;
+}
+.box5 {
+  background: #6c1a1a;
+  height: 350px;
+  width: 300px;
+}
+.box6 {
+  background: #635e5e;
+  height: 350px;
+  width: 300px;
+}
